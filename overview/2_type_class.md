@@ -12,7 +12,7 @@
 > c 
 ```
 
-- Taị sao `Just 1` và `True` thì in được, còn c thì ko
+- Tại sao `Just 1` và `True` thì in được, còn c thì ko
 - :type True --> :info Bool 
 - :type Just 1 --> :info Maybe
 - Show type class (minimal func)
