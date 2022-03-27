@@ -1,5 +1,9 @@
 #### Học haskell
 
+Chào các bạn đến vơí kênh lập trình ahaxu
+
+Link youtube https://www.youtube.com/user/logauit
+
 #### Thư mục overview
 
 Lý thuyết cơ bản theo trình tự:
