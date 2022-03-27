@@ -8,8 +8,8 @@ data Shape =
     | Rectangle Float Float -- pipe |
     | Square Float
 
-instance Show (Shape) where
-    show = _Todo
+instance Show Shape where
+    show = _todo
 
 -- pattern matching
 getArea :: Shape -> Float
