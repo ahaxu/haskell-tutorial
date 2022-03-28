@@ -1,7 +1,14 @@
-### (join .) . fmap 
+### Function composition
+- Định nghĩa hàm hợp https://vi.wikipedia.org/wiki/Hàm_hợp
+- Thực tế (pipe |) `cat foo.txt | grep "hello"`
+- Haskell function composition 
+```
+f :: a -> b
+g :: b -> c
+g . f :: a ->c 
+g . f :: (b -> c)-> (a -> b) -> a -> c
+```
 
-1. eta expansion
+### Ví dụ
 
-2. from pointfull to pointless (currying)
-
-### (sequence .) . fmap 
+List exercise 
