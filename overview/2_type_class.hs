@@ -25,5 +25,7 @@ data XXX  a =
     deriving Show
 
 instance Functor XXX where
+    -- Thay đổi giá trị bên trong cuả XXX
+    -- ở ví dụ này là giá trị a nằm trong XXX
     fmap ab Nothing' = Nothing'
     fmap ab (XXX a) = XXX $ ab a
