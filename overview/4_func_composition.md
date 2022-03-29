@@ -23,3 +23,9 @@ List exercise
 - flatten
 - flatMap
 
+
+### Link tham khảo
+
+- Bài tập về List https://github.com/tonymorris/fp-course/blob/master/src/Course/List.hs
+- Chạy bộ để code khỏe hơn https://nghienchaybo.com
+
