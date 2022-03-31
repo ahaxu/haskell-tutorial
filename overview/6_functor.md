@@ -1,4 +1,4 @@
-## Haskell functor
+## Functor trong haskell
 
 ###  Trường hợp cụ thể
 
@@ -10,7 +10,7 @@
 - `fmap :: (a -> b) -> f a -> f b`
 - Giải thích trực quan với ví dụ hộp bi 
 - Ví dụ đơn giản (`fmap (+1) $ Just 1`)
-- Lift to layer `(fmap . fmap) (+1) [[1,2], [3,4,5]]`
+- Lift two layer `(fmap . fmap) (+1) [[1,2], [3,4,5]]`
 ```
 (a -> f b) -> f a -> f (f b)
 ```
