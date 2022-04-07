@@ -8,7 +8,7 @@ class Functor f => Applicative f where
     (<*>) :: f (a -> b) -> f a -> f b
 ```
 
-Chúng ta goị <*> là "ap" 
+Chúng ta gọi <*> là "ap" 
 
 #### So sánh giữa fmap và <*> 
 ```
@@ -23,3 +23,7 @@ TODO
 #### Bài tập liên quan
 
 https://github.com/system-f/fp-course/blob/master/src/Course/Applicative.hs
+
+### Tài liệu tham khảo 
+
+- Book: https://www.goodreads.com/en/book/show/25587599-haskell-programming-from-first-principles
