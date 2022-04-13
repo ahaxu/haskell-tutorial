@@ -1,4 +1,7 @@
-#### Học haskell
+## Repo này đã migrated qua gitlab
+Gitlab: https://gitlab.com/ahaxu/haskell-tutorial-vietnamese
+
+#### Học haskell Tiếng Việt
 
 Chào các bạn đến vơí kênh lập trình ahaxu
 
